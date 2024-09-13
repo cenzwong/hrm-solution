@@ -1,7 +1,7 @@
-    JUMP b
+    JUMP main
 a:
     OUTBOX
-b:
+main:
     INBOX
     JUMPZ a
     JUMP b
